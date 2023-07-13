@@ -10,8 +10,7 @@
       <ul class="nav nav-pills">
         <li class="nav-item"><NuxtLink to="/" class="nav-link active" aria-current="page">Home</NuxtLink></li>
         <li class="nav-item"><NuxtLink to="/chat/aichat" class="nav-link">AI Chat</NuxtLink></li>
-        <!-- <li class="nav-item"><NuxtLink to="/docs/" external class="nav-link">Documents</NuxtLink></li> -->
-        <li class="nav-item"><a href="/docs/" target="_blank" class="nav-link">Documents</a></li>
+        <li class="nav-item"><NuxtLink to="/docs/" external="true" class="nav-link">Documents</NuxtLink></li>
         <li class="nav-item"><NuxtLink to="/mindmap/learningmap" class="nav-link">Learning Map</NuxtLink></li>
         <li class="nav-item"><NuxtLink to="/about" class="nav-link">About</NuxtLink></li>
       </ul>
