@@ -28,3 +28,4 @@ logs
 
 .npmrc
 pnpm-lock.yaml
+public/docs
