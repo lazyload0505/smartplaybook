@@ -3,8 +3,5 @@ export default defineNuxtConfig({
   // buildDir: 'dist',
   ssr: false,
   devtools: { enabled: true },
-  css: ["bootstrap/dist/css/bootstrap.min.css"],
-  routeRules: {
-    '/docs/**': { static: true },
-  }
+  css: ["bootstrap/dist/css/bootstrap.min.css"]
 })
